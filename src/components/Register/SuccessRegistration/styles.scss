@@ -1,0 +1,30 @@
+.success-registration {
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    background-color: #003B72;
+    padding: 40px 30px 40px 30px;
+    box-sizing: border-box;
+    color: #fff;
+    &__header {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    h2  {
+        display: block;
+        font-weight: 300;
+        width: 377px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    &__subtitle {
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+}

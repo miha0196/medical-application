@@ -1,0 +1,127 @@
+.my-appointments {
+    &__content-wrapper {
+        display: flex;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+    &__card-wrapper {
+        display: flex;
+        max-height: calc(100vh - 122px);
+        flex-direction: column;
+        overflow-x: auto;
+        width: 523px;
+        margin: 0;
+        padding-left: 0;
+    }
+    &__back {
+        text-decoration: underline;
+        color: #50CAFF;
+        text-align: right;
+        padding-right: 48px;
+        margin-bottom: 13px;
+        cursor: pointer;
+    }
+    &__calendar {
+        margin-left: 40px;
+        display: block;
+        width: 573px;
+        height: 481px;
+        background-color: #EBE7FF;
+        border-radius: 5px;
+    }
+    &__month-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 57px;
+        background-color: #7761FF;
+        border-radius: 5px 5px 0 0;
+        color: white;
+    }
+    &__day-of-week {
+        display: flex;
+        height: 37px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px 0 40px;
+        font-weight: 300;
+    }
+    &__days {
+        display: flex;
+        flex-wrap: wrap;    
+        height: 315px;
+        margin: 0 10px;
+        align-items: flex-start;
+        box-sizing: border-box;
+    }
+    &__day {
+        box-sizing: padding-box;
+        display: block;
+        width: 79px;
+        height: 63px;
+        background-color: #fff;
+        padding: 11px 14px 0;
+        box-sizing: border-box;
+        font-size: 20px;
+        position: relative;
+    }
+    &__passed-day {
+        background-color: inherit;
+    }
+    &__appointment-count {
+        background-color: #50CAFF;
+        width: 22px;
+        font-size: 14px;
+        text-align: center;
+        line-height: 22px;
+        color: #fff;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+    &__month {
+        text-align: center;
+        width: 100px;
+    }
+    &__next-arrow {
+        padding: 8px;
+        box-sizing: border-box;
+        margin-left: 30px;
+    }
+    
+    &__prev-arrow {
+        padding: 8px;
+        box-sizing: border-box;
+        margin-right: 30px;
+        transform: rotate(180deg);
+    }
+    &__active-day {
+        box-shadow: inset 2px 2px 0 #50CAFF,
+                    inset -2px -2px 0 #50CAFF;
+    }
+    &__title {
+        display: flex;
+        height: 47px;
+        align-items: center;
+        cursor: pointer;
+        width: 44.5%;
+        img {
+            margin-left: 40px;
+            margin-right: 16px;
+        }
+        &:hover {
+            background-color: #eee;
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color: #EBE7FF;
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #003B72;
+        border-radius: 4px;
+    }
+}

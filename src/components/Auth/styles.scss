@@ -1,0 +1,37 @@
+.auth {
+    display: block;
+    margin: 0 auto; 
+    margin-top: 155px;
+    width: 347px;
+    text-align: center;
+    font-weight: 300;
+    &__remember-pass {
+        text-align-last: left;
+    }
+    &__title {
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+    &__subtitle {
+        margin-bottom: 20px;
+    }
+    &__invalid {
+        text-align: left;
+        display: block;
+        color: red;
+        padding: 6px;
+        padding-left: 0;
+    }
+    button {
+        width: 100%;
+        color: rgba(255,255,255, .4);
+        font-weight: 500;
+        margin-top: 15px;
+    }
+    a {
+        display: inline-block;
+        color: #50CAFF;
+        margin-top: 15px;
+        margin-bottom: 14px;
+    }
+}

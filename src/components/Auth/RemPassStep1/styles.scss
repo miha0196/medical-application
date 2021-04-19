@@ -1,0 +1,41 @@
+.rem-pass {
+    display: block;
+    margin: 0 auto; 
+    margin-top: 155px;
+    width: 347px;
+    text-align: center;
+    font-weight: 300;
+    h2 {
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+    .inputs {
+        input {
+            margin-bottom: 30px;
+            width: 40px;
+            margin-right: 20px; 
+            font-size: 28px;
+            padding-left: 0;
+            text-align: center;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    h5 {
+        margin-bottom: 14px;
+        color: #C5C5C5;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    p {
+        margin-bottom: 34px;
+    }
+    .btn-primary {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    a {
+        text-decoration: none;
+    }
+}

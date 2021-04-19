@@ -1,0 +1,44 @@
+.personal-information {
+    &__gender-n-date {
+        display: flex;
+        padding-left: 14px;
+        align-items: center;
+        padding-bottom: 20px;
+        p {
+            margin-right: 12px;
+        }
+    }
+    &__born {
+        width: 196px;
+        height: 40px;
+        margin-bottom: 0;
+        margin-left: 10px;
+        position: relative;
+        padding-left: 44px;
+    }
+    &__gender {
+        box-sizing: border-box;
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin-right: 10px;
+        &_active {
+            background-color: #7761FF;
+            color: #fff;
+            border: none
+        }
+    }
+    ::-webkit-calendar-picker-indicator {
+        color: rgba(0, 0, 0, 0);
+        opacity: 1;
+        display: block;
+        position: absolute;
+        left: -12px;
+        background: url('./calendar.svg') center no-repeat;
+        width: 16px;
+        height: 16px;
+        border-width: thin;
+    } 
+}

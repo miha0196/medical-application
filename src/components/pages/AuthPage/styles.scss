@@ -1,0 +1,56 @@
+.auth-page {
+    position: relative;
+    display: flex; 
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        margin-bottom: 18px;
+        border-bottom: 1px solid #EBE7FF;
+        &>div {
+            display: flex;
+            align-items: center;
+            color: #7761FF;
+            img {
+                margin-right: 14px;
+            }
+        }
+    }
+    &__logo {
+        position: absolute;
+        left: 40px;
+        bottom: 30px;
+        z-index: 1;
+    }
+    &__wrapper {
+        padding: 0px 40px 30px 40px;
+        display: block;
+        width: 782%;
+        background-color: #fff;
+    }
+    
+    &__add {
+        box-sizing: border-box;
+        color: #fff;
+        display: block;
+        width: 584%;
+        background-color: #003B72;
+        height: 100vh;
+        padding: 0 25px 25px;
+        text-align: center;
+        h2, h3 {
+            margin: 0;
+            font-weight: 300;
+        }
+        h2, img {
+            margin-bottom: 55px;
+        }
+    }
+    .auth-page__register-title {
+        margin-top: 117px;
+    }
+    .auth-page__remember-pass-title {
+        margin-top: 134px;
+    }
+}

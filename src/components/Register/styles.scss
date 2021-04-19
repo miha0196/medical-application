@@ -1,0 +1,54 @@
+.register {
+    text-align: center;
+    &__loading {
+        margin: 29px 0;
+        display: flex;
+        justify-content: center;
+        .round {
+            height: 24px;
+            width: 24px;
+            margin: 0 auto;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-weight: 300;
+            color: #C5C5C5;
+        }
+        p {
+            font-weight: 300;
+            margin: 0;
+            color: #C5C5C5;
+        }
+        hr {
+            height: 40px;
+            transform: rotate(90deg) translateX(-7px);
+            margin: 0 20px;
+            width: 1px;
+            border: none;
+            background-color: #C5C5C5;
+        }
+        .register__step.active {
+            .round {
+                background-color: #7761FF;
+                color: white;
+                padding-top: 2px;
+                box-sizing: border-box;
+            }
+            p {
+                font-weight: 300;
+                margin: 0;
+                color: #7761FF;
+            }
+        }
+        hr.active {
+            background-color: #7761FF;
+        }
+    }
+    a {
+        margin-bottom: 29px;
+    }
+    h2 {
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,27 @@
+.appointment {
+    &__title {
+        margin: 15px 40px;
+    }
+    &__content {
+        display: flex;
+        span {
+            padding-left: 40px;
+        }
+    }
+    &__list {
+        display: flex;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    &__more {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 35px;
+        margin-left: 20px;
+        h3, a {
+            margin: 0;
+            line-height: 20px;
+        }
+    }
+}
